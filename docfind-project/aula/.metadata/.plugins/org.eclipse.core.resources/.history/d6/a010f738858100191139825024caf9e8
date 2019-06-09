@@ -1,0 +1,80 @@
+package model;
+
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
+
+@Entity
+public class Pessoa {
+	
+	@Id
+	@GeneratedValue(strategy=GenerationType.AUTO)
+	private long idpessoa;
+	
+	@Column 
+	private String nome;
+	
+	@Column 
+	private String cpffk;
+	
+	@Column 
+	private String rgfk;
+	
+	@Column 
+	private String cnhfk;
+	
+	@Column 
+	private String passfk;
+	
+
+	public long getIdpessoa() {
+		return idpessoa;
+	}
+
+	public void setIdpessoa(long idpessoa) {
+		this.idpessoa = idpessoa;
+	}
+	
+	public String Nome() {
+		return nome;
+	}
+
+	public void setNome(String nome) {
+		this.nome = nome;
+	}
+
+	public String getCpffk() {
+		return cpffk;
+	}
+
+	public void setCpffk(String cpffk) {
+		this.cpffk = cpffk;
+	}
+
+	public String getRgfk() {
+		return rgfk;
+	}
+
+	public void setRgfk(String rgfk) {
+		this.rgfk = rgfk;
+	}
+
+	public String getCnhfk() {
+		return cnhfk;
+	}
+
+	public void setCnhfk(String cnhfk) {
+		this.cnhfk = cnhfk;
+	}
+	
+	public String getPassfk() {
+		return passfk;
+	}
+
+	public void setPassfk(String passfk) {
+		this.passfk = passfk;
+	}
+	
+}

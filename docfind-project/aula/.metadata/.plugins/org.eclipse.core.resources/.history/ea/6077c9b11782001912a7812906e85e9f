@@ -1,0 +1,72 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"   
+   "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:ui="http://java.sun.com/jsf/facelets"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:f="http://java.sun.com/jsf/core"
+	xmlns:p="http://primefaces.org/ui">
+<f:view contentType="text/html"></f:view>
+
+<h:head>
+
+</h:head>
+
+
+<h:body>
+	<h:form>
+	
+	<!-- Form de Cadastro -->
+		<h:panelGrid id="panelgrid" columns="2" cellpadding="5">
+			<p:outputLabel value="Nome:" for="acNome" />
+			<p:autoComplete id="acNome" value="#{pessoaMB.pessoa.nome}" />
+			<p:outputLabel value="CPF:" for="accpf" />
+			<p:autoComplete id="accpf" value="#{pessoaMB.pessoa.cpffk}" />
+			<p:outputLabel value="RG:" for="acrg" />
+			<p:autoComplete id="acrg" value="#{pessoaMB.pessoa.rgfk}" />
+			
+			<p:outputLabel value="CNH:" for="accnh" />
+			<p:autoComplete id="accnh" value="#{pessoaMB.pessoa.cnhfk}" />
+			
+			<p:outputLabel value="Passaporte:" for="acpass" />
+			<p:autoComplete id="acpass" value="#{pessoaMB.pessoa.passfk}" />
+			
+ 			<p:growl id="messages" /> 
+			<p:commandButton value="salvar" action="#{pessoaMB.salvar}"
+				type="submit" update="panelgrid" icon="ui-icon-disk">
+			</p:commandButton>
+			
+			<p:growl id="messages" /> 
+			<p:commandButton value="excluir" action="#{pessoaMB.excluir}"
+				type="submit" update="panelgrid" icon="ui-icon-disk">
+			</p:commandButton>
+
+
+			<!-- Grid de Consulta -->
+			<p:dataTable var="c" value="#{pessoaMB.list}">
+				<p:column headerText="Id">
+					<h:outputText value="#{c.idpessoa}" />
+				</p:column>
+				<p:column headerText="Nome">
+					<h:outputText value="#{c.nome}" />
+				</p:column>
+				<p:column headerText="CPF">
+					<h:outputText value="#{c.cpffk}" />
+				</p:column>
+				<p:column headerText="RG">
+					<h:outputText value="#{c.rgfk}" />
+				</p:column>
+				<p:column headerText="CNH">
+					<h:outputText value="#{c.cnhfk}" />
+				</p:column>
+				<p:column headerText="Passaporte">
+					<h:outputText value="#{c.passfk}" />
+				</p:column>
+			</p:dataTable>
+		</h:panelGrid>
+	</h:form>
+	
+</h:body>
+
+
+</html>

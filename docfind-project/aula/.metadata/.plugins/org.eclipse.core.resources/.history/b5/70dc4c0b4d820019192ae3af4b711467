@@ -1,0 +1,41 @@
+package model;
+
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
+
+@Entity
+public class Rg {
+	
+	@Id
+	@GeneratedValue(strategy=GenerationType.AUTO)
+	private long idrg;
+	
+	@Column
+	private long iditemfk;
+	
+	@Column 
+	private String numerorg;
+	
+	@Column
+	private String cpfrg;
+	
+	@Column 
+	private String nomerg;
+	
+	@Column 
+	private String nomemaerg;
+	
+	@Column 
+	private String nomepai;
+	
+	@Column
+	private String uf;
+	
+	@Column
+	private String ogexpedicao;
+	
+	
+}

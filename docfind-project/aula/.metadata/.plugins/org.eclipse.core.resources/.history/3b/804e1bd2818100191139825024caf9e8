@@ -1,0 +1,29 @@
+package test;
+
+import static org.junit.Assert.*;
+import org.junit.Test;
+
+import dao.PessoaDAO;
+import model.Pessoa;
+
+public class PessoaTest {
+	private PessoaDAO pessoaDAO;
+	private Pessoa pessoa;
+
+	@Test
+	public void testSalvar() {
+		pessoa = new Pessoa();
+
+		pessoa.setIdpessoa(1);
+		pessoa.setNome("diogo barros");
+		pessoa.setCpffk("11423477456");
+		pessoa.setTelefone("4599991231");
+
+		pessoaDAO = new PessoaDAO();
+		pessoaDAO.salvar(pessoa);
+
+		assertTrue(pessoaDAO.listarTodos().size() > 0);
+
+	}
+
+}

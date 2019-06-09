@@ -1,0 +1,60 @@
+
+package controller;
+
+import java.util.List;
+
+import javax.faces.application.FacesMessage;
+import javax.faces.bean.ManagedBean;
+import javax.faces.context.FacesContext;
+
+import dao.ItemDAO;
+import model.Item;
+
+@ManagedBean
+public class ItemMB {
+	private Item pessoa;
+	private ItemDAO pessoaDAO;
+	private List<Item> Lista;	
+	
+	public ItemMB() {
+		pessoaDAO = new ItemDAO();
+		pessoa = new Item();
+		
+		Lista = pessoaDAO.listarTodos();				
+	}
+	
+	public Item getPessoa(){
+		return this.pessoa;
+	}
+	
+	public void setPessoa(Item pessoa){
+		this.pessoa = pessoa;
+	}
+	
+	public List<Item> getList() {
+		return this.Lista;
+	}
+	
+	public void salvar() {
+		pessoaDAO.salvar(pessoa);
+		pessoa = new Item();
+		Lista = pessoaDAO.listarTodos();
+
+		addMessage("Pessoa salva com sucesso!!");
+		
+	}
+	
+	public void excluir() {
+		pessoaDAO.excluir(pessoa);
+		pessoa = new Item();
+		Lista = pessoaDAO.listarTodos();
+
+		addMessage("Pessoa excluida com sucesso!!");
+		
+	}
+	
+	public void addMessage(String summary) {
+	        FacesMessage message = new FacesMessage(FacesMessage.SEVERITY_INFO, summary,  null);
+	        FacesContext.getCurrentInstance().addMessage(null, message);
+	}
+}	

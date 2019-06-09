@@ -1,0 +1,42 @@
+package model;
+
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
+
+@Entity
+public class Cpf {
+	
+	@Id
+	@GeneratedValue(strategy=GenerationType.AUTO)
+	private long idcpf;
+	
+	@Column
+	private long iditemfk;
+	
+	@Column 
+	private String nomecpf;
+	
+	@Column 
+	private String numerocpf;
+	
+	@Column 
+	private String itemperdido;
+	
+	@Column 
+	private String descricao;
+	
+	@Column
+	private boolean entregue;
+	
+	
+	
+
+	
+	
+	
+	
+	
+}

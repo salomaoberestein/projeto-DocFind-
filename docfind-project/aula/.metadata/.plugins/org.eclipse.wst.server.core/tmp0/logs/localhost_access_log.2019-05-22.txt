@@ -1,0 +1,15 @@
+127.0.0.1 - - [22/May/2019:10:32:34 -0300] "GET / HTTP/1.1" 404 1086
+0:0:0:0:0:0:0:1 - - [22/May/2019:10:32:45 -0300] "GET /java-jsf-primefaces-basico/ HTTP/1.1" 200 6658
+0:0:0:0:0:0:0:1 - - [22/May/2019:10:32:45 -0300] "GET /java-jsf-primefaces-basico/javax.faces.resource/primefaces.js.xhtml;jsessionid=956B190CBC779F6E374FA5B40FAC83DC?ln=primefaces&v=5.3 HTTP/1.1" 200 350170
+0:0:0:0:0:0:0:1 - - [22/May/2019:10:32:45 -0300] "GET /java-jsf-primefaces-basico/javax.faces.resource/jquery/jquery.js.xhtml;jsessionid=956B190CBC779F6E374FA5B40FAC83DC?ln=primefaces&v=5.3 HTTP/1.1" 200 107783
+0:0:0:0:0:0:0:1 - - [22/May/2019:10:32:45 -0300] "GET /java-jsf-primefaces-basico/javax.faces.resource/jquery/jquery-plugins.js.xhtml;jsessionid=956B190CBC779F6E374FA5B40FAC83DC?ln=primefaces&v=5.3 HTTP/1.1" 200 243000
+0:0:0:0:0:0:0:1 - - [22/May/2019:10:32:45 -0300] "GET /java-jsf-primefaces-basico/javax.faces.resource/primefaces.css.xhtml;jsessionid=956B190CBC779F6E374FA5B40FAC83DC?ln=primefaces&v=5.3 HTTP/1.1" 200 71007
+0:0:0:0:0:0:0:1 - - [22/May/2019:10:32:45 -0300] "GET /java-jsf-primefaces-basico/javax.faces.resource/theme.css.xhtml?ln=primefaces-aristo HTTP/1.1" 200 29458
+0:0:0:0:0:0:0:1 - - [22/May/2019:10:32:46 -0300] "GET /java-jsf-primefaces-basico/javax.faces.resource/images/ui-bg_highlight-hard_80_c4c4c4_1x100.png.xhtml?ln=primefaces-aristo HTTP/1.1" 200 2822
+0:0:0:0:0:0:0:1 - - [22/May/2019:10:32:46 -0300] "GET /java-jsf-primefaces-basico/javax.faces.resource/images/ui-icons_38667f_256x240.png.xhtml?ln=primefaces-aristo HTTP/1.1" 200 4369
+0:0:0:0:0:0:0:1 - - [22/May/2019:10:33:05 -0300] "GET /java-jsf-primefaces-basico/javax.faces.resource/images/ui-bg_highlight-hard_80_85b2cb_1x100.png.xhtml?ln=primefaces-aristo HTTP/1.1" 200 2838
+0:0:0:0:0:0:0:1 - - [22/May/2019:10:33:09 -0300] "GET /java-jsf-primefaces-basico/javax.faces.resource/images/ui-bg_inset-hard_65_85b2cb_1x100.png.xhtml?ln=primefaces-aristo HTTP/1.1" 200 2832
+127.0.0.1 - - [22/May/2019:14:06:10 -0300] "GET / HTTP/1.1" 404 1086
+0:0:0:0:0:0:0:1 - - [22/May/2019:14:06:13 -0300] "GET /escola/ HTTP/1.1" 404 1097
+127.0.0.1 - - [22/May/2019:14:08:19 -0300] "GET / HTTP/1.1" 404 1086
+0:0:0:0:0:0:0:1 - - [22/May/2019:14:08:20 -0300] "GET /escola/ HTTP/1.1" 404 1097

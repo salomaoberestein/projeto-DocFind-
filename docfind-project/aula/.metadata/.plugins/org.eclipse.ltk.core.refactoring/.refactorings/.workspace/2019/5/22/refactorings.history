@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">&#x0A;<refactoring comment="Delete resource &apos;java-jsf-primefaces-basico&apos;" deleteContents="false" description="Delete resource &apos;java-jsf-primefaces-basico&apos;" element1="/java-jsf-primefaces-basico" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1559051974374"/>&#x0A;<refactoring comment="Delete resource &apos;Escola&apos;" deleteContents="false" description="Delete resource &apos;Escola&apos;" element1="/Escola" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1559053310549"/>
+</session>
