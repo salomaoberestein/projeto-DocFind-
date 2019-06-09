@@ -1,0 +1,69 @@
+<!doctype html>
+<!--[if lt IE 7]><html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if IE 7]><html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en"> <![endif]-->
+<!--[if IE 9 ]><html class="ie9 no-js"> <![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!-->
+<html class="no-js">
+<!--<![endif]-->
+
+<head>
+    
+ <!-- SEO Manager 6.0.1 -->
+<meta name='seomanager' content='6.0' />
+<title>basico.com - roupas básicas premium essenciais, escolha atemporalidade</title>
+<meta name='description' content='basico.com roupas básicas feitas com materiais nobres e precisão de alfaiataria - ganhe r$ 30 off na primeira compra, apaixone-se.' /> 
+<meta name="robots" content="index"> 
+<meta name="robots" content="follow">
+<meta name="google-site-verification" content="UM5CoDUHrwbdOrzG9JWw3RXSYZD-iDbUQc5rnCTSVhs" />
+
+<!-- JSON-LD support -->
+ <script type="application/ld+json">
+ {
+ "@context": "https://schema.org",
+ "@type": "WebSite",
+ "name": "basico.com","url": "https://www.basico.com",
+ "potentialAction": {
+ "@type": "SearchAction",
+ "target": "https://www.basico.com/search?q={query}",
+ "query-input": "required name=query"
+ }
+ }
+ </script>
+ <script type="application/ld+json">
+ {
+ "@context": "http://schema.org",
+ "@type": "Organization",
+ "name": "basico.com",
+ "url": "https://www.basico.com","logo": "https://customers.seomanager.com/knowledgegraph/logo/basico-production_myshopify_com_logo.jpg"
+ ,"image": "https://customers.seomanager.com/knowledgegraph/logo/basico-production_myshopify_com_logo.jpg","contactPoint": [],"sameAs" : [
+ "https", "https://www.instagram.com/soubasico/", "https://www.youtube.com/user/soubasico"
+ ]}
+ </script><script type="application/ld+json">
+ {
+ "@context": "https://schema.org",
+ "@type": "Store",
+ "name": "basico.com",
+ "url": "https://www.basico.com",
+ "description": "basico.com roupas básicas feitas com materiais nobres e precisão de alfaiataria - ganhe r$ 30 off na primeira compra, apaixone-se.",
+ "image": "https://customers.seomanager.com/knowledgegraph/logo/basico-production_myshopify_com_logo.jpg","telephone": "551130837003","brand": {
+ "@type": "Brand",
+ "name": "basico.com"
+ },"priceRange": "R$30 - R$800","geo": {
+ "@type": "GeoCoordinates",
+ "latitude": "-23.5501916",
+ "longitude": "-46.7097237"
+ }
+ ,"address": {
+ "@type": "PostalAddress",
+ "streetAddress": "Av S\u00e3o Gualter 962 Casa",
+ "addressLocality": "Sao Paulo",
+ "addressRegion": "S\u00e3o Paulo",
+ "postalCode": "05455002",
+ "addressCountry": "BR"
+ }
+ }
+ </script>
+<body>
+</body>
+</html>
